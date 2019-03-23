@@ -21,8 +21,8 @@ const iconURI = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOE
  * @enum
  */
 const BLEService = {
-    DEVICE_SERVICE: '00001523-1212-efde-1523-785feabcd123',
-    IO_SERVICE: '00004f0e-1212-efde-1523-785feabcd123'
+    DEVICE_SERVICE: '6E400001-B5A3-F393-E0A9-E50E24DCCA9E',
+    IO_SERVICE: '6E400001-B5A3-F393-E0A9-E50E24DCCA9E'
 };
 
 /**
@@ -922,7 +922,7 @@ class Scratch3PandoBlocks {
     getInfo () {
         return {
             id: Scratch3PandoBlocks.EXTENSION_ID,
-            name: 'WeDo 2.0',
+            name: 'Pando',
             blockIconURI: iconURI,
             showStatusButton: true,
             blocks: [

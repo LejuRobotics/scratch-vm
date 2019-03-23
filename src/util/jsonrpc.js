@@ -59,6 +59,7 @@ class JSONRPC {
     }
 
     _handleMessage (json) {
+        console.log("_handleMessage:", json);
         if (json.jsonrpc !== '2.0') {
             throw new Error(`Bad or missing JSON-RPC version in message: ${json}`);
         }
